@@ -60,6 +60,11 @@ exports.open = function(url, name) {
   win = new BrowserWindow({
     width: windowBounds.width,
     height: windowBounds.height,
+    frame: false,
+    minHeight: 400,
+    minWidth: 621,
+    height: 720,
+    width: 720,
     show: name != '_minimized',
     titleBarStyle: 'hidden-inset',
     icon: __dirname.split('/').slice(0, -1).join('/') + '/icon.iconset/icon_256x256.png'

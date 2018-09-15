@@ -1,0 +1,33 @@
+/* make room for window controls */
+#lQGP9e {
+  position: absolute !important;
+  right: 170px !important;
+}
+
+/*make titlebar draggable*/ 
+.hn {
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+}
+
+.c7 span, .c7 .bl, .rs.k2, .bS, .gb_Uf .gbii, #lQGP9e {
+  -webkit-app-region: no-drag !important;
+  -webkit-user-select: auto !important;
+}
+
+#min-btn, #max-btn, #close-btn {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  display: inline-block;
+  -webkit-app-region: no-drag !important;
+  -webkit-user-select: none !important;
+}
+
+.gb_Uf * {
+  display: inline-block;
+}
+
+.gb_Ec.gb_Sg.gb_R {
+  min-width: 60px !important;
+}
